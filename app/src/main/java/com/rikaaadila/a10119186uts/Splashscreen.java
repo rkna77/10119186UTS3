@@ -9,7 +9,6 @@ import android.view.WindowManager;
 
 ///<!--
 //Tanggal Pengerjaan : 15/5/2022 NIM : 10119186 Nama : Rika Nur'adila Kelas : IF-5
-//-->
 public class Splashscreen extends AppCompatActivity {
 
     @Override
@@ -23,7 +22,7 @@ public class Splashscreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(Splashscreen.this, MainActivity.class);
+                Intent intent = new Intent(Splashscreen.this, Welcome.class);
                 Splashscreen.this.startActivity(intent);
                 Splashscreen.this.finish();
             }
