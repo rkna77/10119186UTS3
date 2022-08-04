@@ -175,6 +175,7 @@
                 android:textColor="@color/ungutua"
                 android:textSize="22sp"
                 android:textStyle="bold"/>
+
             <ImageView
                 android:id="@+id/logoabout"
                 android:layout_width="70dp"

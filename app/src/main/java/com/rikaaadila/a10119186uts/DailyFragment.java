@@ -13,7 +13,6 @@ import android.view.ViewGroup;
 import com.rikaaadila.a10119186uts.R;
 import java.util.ArrayList;
 
-//Yolanda Octaviane 10119171 IF5 Rabu 4 Mei 2022
 public class DailyFragment extends Fragment {
 
     RecyclerView recyclerViewDaily;
